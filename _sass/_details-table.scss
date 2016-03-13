@@ -1,0 +1,31 @@
+table.details {
+  td {
+    vertical-align: middle;
+  }
+
+  .heading {
+    font-size: 1.25rem;
+    line-height: 2rem;
+  }
+
+  .tagline {
+    font-size: .875rem;
+  }
+
+  td.main {
+    width: 100%;
+  }
+
+  td.pad-right {
+    padding: 0 .5rem 0 0;
+  }
+
+  td.pad-left {
+    padding: 0 0 0 .5rem;
+  }
+
+  td.pad-both {
+    padding: 0 .5rem;
+  }
+}
+

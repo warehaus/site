@@ -1,0 +1,44 @@
+.page-layout-nav {
+  ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+
+    li {
+      white-space: nowrap;
+      margin: 0;
+      padding: 0;
+
+      &.heading {
+        display: block;
+        font-weight: $warehaus-font-weight-mild;
+        text-transform: uppercase;
+        padding: (3 * $docs-nav-spacing) .5rem $docs-nav-spacing .5rem;
+      }
+
+      &.active {
+        font-weight: 700;
+        border-width: 0 0 0 3px;
+        border-style: solid;
+        border-color: #aaa;
+      }
+
+      a {
+        outline: 0;
+        margin: 0;
+        display: block;
+        padding: $docs-nav-spacing .5rem;
+
+        &:hover,
+        &:focus {
+          text-decoration: none;
+        }
+      }
+
+      &:first-child {
+        padding-top: 0;
+      }
+    }
+  }
+}

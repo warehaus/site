@@ -1,0 +1,18 @@
+ul.dropdown-menu {
+  li.heading {
+    color: $warehaus-dropdown-menu-heading-color;
+    text-transform: uppercase;
+    padding: $warehaus-dropdown-menu-heading-padding;
+    font-size: $warehaus-dropdown-menu-heading-font-size;
+  }
+
+  li.text {
+    display: block;
+    padding: $warehaus-dropdown-menu-heading-padding;
+    clear: both;
+    font-weight: normal;
+    line-height: $line-height-base;
+    color: $dropdown-link-color;
+    white-space: nowrap; // prevent links from randomly breaking onto new lines
+  }
+}

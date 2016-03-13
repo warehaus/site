@@ -1,0 +1,35 @@
+---
+layout: base
+---
+
+{% include navbar.html %}
+
+<div class="container">
+  <div class="row">
+    <div class="col-sm-3 col-md-2">
+
+      <div class="page-layout-nav">
+        <ul>
+          {% for section in site.data.docs %}
+          <li class="heading">
+            {{ section.name }}
+          </li>
+          {% for node in section.pages %}
+          <li{% if page.id == node.id %} class="active"{% endif %}>
+            <a href="{{ site.baseurl }}/docs/{% if node.id == 'index' %}{% else %}{{ node.id }}{% endif %}">{{ node.name }}</a>
+          </li>
+          {% endfor %}
+          {% endfor %}
+        </ul>
+      </div>
+
+    </div>
+    <div class="col-sm-9 col-md-10">
+      <div class="panel panel-default">
+        <div class="panel-body">
+          {{ content }}
+        </div>
+      </div>
+    </div>
+  </div>
+</div>

@@ -1,0 +1,13 @@
+# Site settings
+title: Warehaus
+email: hi@warehaus.io
+description: >
+  Warehaus configuration management tool
+baseurl: ""
+url: "http://www.warehaus.io"
+
+# Build settings
+markdown: kramdown
+
+gems:
+  - jekyll-redirect-from

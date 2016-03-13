@@ -1,0 +1,35 @@
+- name: Getting Started
+  pages:
+    - name: What is Warehaus
+      id: index
+    - name: Quick Start
+      id: quick-start
+    - name: First Setup
+      id: first-setup
+
+- name: Usage Guide
+  pages:
+    - name: Labs
+      id: labs-guide
+    - name: Hardware Types
+      id: hardware-types
+    - name: Servers
+      id: servers-guide
+
+- name: API
+  pages:
+    - name: Authentication
+      id: api-auth
+    - name: Users API
+      id: users-api
+    - name: Raw Objects
+      id: objects-api
+    - name: Labs API
+      id: labs-api
+    - name: Cluster Ownership
+      id: ownership-api
+
+- name: About
+  pages:
+    - name: License
+      id: license

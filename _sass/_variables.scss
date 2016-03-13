@@ -1,0 +1,100 @@
+$warehaus-font-weight-min:           400;
+$warehaus-font-weight-thin:          400;
+$warehaus-font-weight-normal:        400;
+$warehaus-font-weight-mild:          600;
+$warehaus-font-weight-strong:        700;
+
+//-------------------------------
+// Overridden Bootstrap variables
+//-------------------------------
+
+$gray-base:              #111;
+$gray-darker:            lighten($gray-base, 13.5%);
+$gray-dark:              lighten($gray-base, 20%);
+$gray:                   lighten($gray-base, 33.5%);
+$gray-light:             lighten($gray-base, 46.7%);
+$gray-lighter:           lighten($gray-base, 93.5%);
+
+$brand-primary:           #53687d;
+$brand-success:           #5cb85c;
+$brand-info:              #5bc0de;
+$brand-warning:           #f0ad4e;
+$brand-danger:            #d9534f;
+
+$font-size-base:          14px;
+$font-size-h1:            floor(($font-size-base * 2.2));
+$font-size-h2:            floor(($font-size-base * 2));
+$font-size-h3:            ceil(($font-size-base * 1.8));
+$font-size-h4:            ceil(($font-size-base * 1.5));
+$font-size-h5:            ceil(($font-size-base * 1.25));
+$font-size-h6:            ceil(($font-size-base * 1.1));
+$font-family-sans-serif:  'Open Sans', sans-serif;
+$font-family-serif:       $font-family-sans-serif;
+$font-family-monospace:   Menlo, Monaco, Consolas, "Courier New", monospace;
+$headings-font-family:    $font-family-sans-serif;
+$headings-font-weight:    $warehaus-font-weight-mild;
+$btn-font-weight:         $warehaus-font-weight-normal;
+$alert-link-font-weight:  $warehaus-font-weight-normal;
+$badge-font-weight:       $warehaus-font-weight-thin;
+
+//------------------
+// Warehaus variables
+//------------------
+
+$lato-font-path:                           '/static/bower_components/lato-font/fonts';
+
+$warehaus-standalone-box-padding:           2rem .5rem;
+$warehaus-standalone-box-radius:            .75rem;
+$warehaus-standalone-box-img-margin:        1rem;
+
+$warehaus-bg-color:                         #fafafa;
+
+$warehaus-sidebar-width:                    85px;
+$warehaus-sidebar-logo-width:               64px;
+$warehaus-sidebar-color:                    #aaa;
+$warehaus-sidebar-bg:                       #333;
+$warehaus-sidebar-border-width:             1px;
+$warehaus-sidebar-border-color:             #eee;
+$warehaus-sidebar-profile-picture-border:   lighten($warehaus-sidebar-border-color, 5%);
+$warehaus-sidebar-link-active-color:        white;
+$warehaus-sidebar-link-active-bg:           lighten($warehaus-sidebar-bg, 20%);
+
+$docs-nav-spacing:                          .4rem;
+
+$warehaus-dropdown-menu-heading-color:      #aaa;
+$warehaus-dropdown-menu-heading-padding:    3px 20px; // Bootstrap value
+$warehaus-dropdown-menu-heading-font-size:  .8rem;
+
+$nav-link-padding:                         .5rem 1rem;
+$warehaus-nav-pills-color:                  gray;
+$warehaus-nav-pills-font-weight:            $warehaus-font-weight-strong;
+$warehaus-nav-pills-padding:                1rem 1rem .5rem 1rem;
+
+$warehaus-profile-picture-border-color:     lighten($gray-base, 70%);
+
+$navbar-height:                             70px;
+$navbar-warehaus-color:                     #777;
+$navbar-warehaus-bg:                        transparent;
+$navbar-warehaus-border:                    none;
+$navbar-warehaus-link-color:                #777 !default;
+$navbar-warehaus-link-hover-color:          #333 !default;
+$navbar-warehaus-link-hover-bg:             transparent !default;
+$navbar-warehaus-link-active-color:         #555 !default;
+$navbar-warehaus-link-active-bg:            darken($navbar-warehaus-bg, 6.5%) !default;
+$navbar-warehaus-link-disabled-color:       #ccc !default;
+$navbar-warehaus-link-disabled-bg:          transparent !default;
+$navbar-warehaus-brand-height:              ($navbar-height * 0.45);
+$navbar-warehaus-brand-width:               ($navbar-warehaus-brand-height * 4.8);
+$navbar-warehaus-toggle-hover-bg:           #ddd !default;
+$navbar-warehaus-toggle-icon-bar-bg:        #888 !default;
+$navbar-warehaus-toggle-border-color:       #ddd !default;
+
+$warehaus-status-dot-size:                  4px;
+$warehaus-status-dot-border-size:           2px;
+$warehaus-status-dot-contrast:              10%;
+$warehaus-status-dot-color-primary:         $brand-primary;
+$warehaus-status-dot-color-success:         $brand-success;
+$warehaus-status-dot-color-info:            $brand-info;
+$warehaus-status-dot-color-warning:         $brand-warning;
+$warehaus-status-dot-color-danger:          $brand-danger;
+$warehaus-status-dot-color-unknown:         white;
