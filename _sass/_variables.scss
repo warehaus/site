@@ -21,10 +21,10 @@ $brand-info:              #5bc0de;
 $brand-warning:           #f0ad4e;
 $brand-danger:            #d9534f;
 
-$font-size-base:          14px;
-$font-size-h1:            floor(($font-size-base * 2.2));
-$font-size-h2:            floor(($font-size-base * 2));
-$font-size-h3:            ceil(($font-size-base * 1.8));
+$font-size-base:          16px;
+$font-size-h1:            floor(($font-size-base * 2));
+$font-size-h2:            floor(($font-size-base * 1.8));
+$font-size-h3:            ceil(($font-size-base * 1.75));
 $font-size-h4:            ceil(($font-size-base * 1.5));
 $font-size-h5:            ceil(($font-size-base * 1.25));
 $font-size-h6:            ceil(($font-size-base * 1.1));
