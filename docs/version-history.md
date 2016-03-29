@@ -18,6 +18,10 @@ This page contains the release notes for the current, upcoming and past releases
 #### Version 0.1.2 *(upcoming)*
 
 * Rebranding as Warehaus
+* Authentication:
+  * New local user store
+  * Removed *first setup* procedure, a clean install comes with an `admin`:`admin` user
+  * Authentication APIs are in their own process now
 * Agent improvements:
   * Send information about root filesystem, CPU and RAM
   * Store all agent info under `hw_info`

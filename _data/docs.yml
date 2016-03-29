@@ -4,8 +4,6 @@
       id: index
     - name: Quick Start
       id: quick-start
-    - name: First Setup
-      id: first-setup
 
 - name: Usage Guide
   pages:

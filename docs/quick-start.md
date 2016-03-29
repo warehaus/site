@@ -20,7 +20,13 @@ Once you have a RethinkDB container, you can run the Warehaus container:
     
 This runs Warehaus while linking it to the RethinkDB container and exposes port 80.
 
-## Existing RethinkDB Database
+# First Login
+
+Right after installing Warehaus, a builtin user named `admin` is created with a password of `admin`.
+
+After you login for the first time you can add more users and configure a login backend.
+
+# Existing RethinkDB Database
 
 If you have an existing RethinkDB database, you can link using the following environment variables when running the Warehaus container:
 
