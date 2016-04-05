@@ -29,7 +29,5 @@
 
 - name: About
   pages:
-    - name: Version History
-      id: version-history
     - name: License
       id: license
