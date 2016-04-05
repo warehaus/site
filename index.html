@@ -33,4 +33,41 @@ layout: base
       </a>
     </div>
   </div>
+
+  <p>
+  </p>
+
+  <div class="container">
+    <div class="row">
+      <div class="col-sm-12">
+        <p style="font-size: 1.2rem;">
+          Latest release: 0.1.2
+        </p>
+      </div>
+    </div>
+  </div>
+
 </div>
+
+{% for post in site.posts %}
+<a href="{{ post.url }}">
+  <div class="container">
+    <div class="row">
+      <div class="col-sm-12">
+        <h3>
+          {{ post.title }}
+          <small>
+            {% for category in post.categories %}
+            <span class="label label-success">{{ category }}</span>
+            {% endfor %}
+          </small>
+        </h3>
+        <div class="post-subtitle">
+          {{ post.date }}
+        </div>
+        <p>{{ post.excerpt }}</p>
+      </div>
+    </div>
+  </div>
+</a>
+{% endfor %}
