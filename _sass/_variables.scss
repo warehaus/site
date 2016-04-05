@@ -59,7 +59,13 @@ $warehaus-sidebar-profile-picture-border:   lighten($warehaus-sidebar-border-col
 $warehaus-sidebar-link-active-color:        white;
 $warehaus-sidebar-link-active-bg:           lighten($warehaus-sidebar-bg, 20%);
 
-$docs-nav-spacing:                          .4rem;
+$docs-page-nav-width:              250px;
+$docs-page-nav-font-size:          floor(0.875 * $font-size-base);
+$docs-page-nav-heading-color:      #aaa;
+$docs-page-nav-active-color:       #eee;
+$docs-page-nav-spacing-horizontal: floor($font-size-base / 2);
+$docs-page-nav-section-items:      floor(0.4 * $font-size-base);
+$docs-page-nav-section-spacing:    floor(1.5 * $font-size-base);
 
 $warehaus-dropdown-menu-heading-color:      #aaa;
 $warehaus-dropdown-menu-heading-padding:    3px 20px; // Bootstrap value
