@@ -1,0 +1,16 @@
+.landing-page-jumbotron {
+  padding: 3rem 0;
+  background-color: $warehaus-landing-page-jumbotron-bg;
+  color: $warehaus-landing-page-jumbotron-color;
+  text-shadow: 1px 1px darken($warehaus-landing-page-jumbotron-color, 75%);
+
+  img {
+    width: 350px;
+    height: 72px;
+    margin: 1rem;
+  }
+}
+
+.alert-landing-page {
+  @include alert-variant($warehaus-landing-page-jumbotron-bg, darken($warehaus-landing-page-jumbotron-bg, 5%), $warehaus-landing-page-jumbotron-color);
+}
