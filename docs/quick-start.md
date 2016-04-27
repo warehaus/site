@@ -10,7 +10,7 @@ Warehaus is distributed as a Docker container.
 
 Before starting Warehaus, you'd first have to setup a RethinkDB instance. The fastest way to do that is to run it in a Docker container. You can then link that container to Warehaus:
 
-    docker run --name rethinkdb rethinkdb
+    docker run -d --name rethinkdb rethinkdb
 
 This command line creates a new RethinkDB container. Note that this is great for testing and small deployments -- see the full documentation for this RethinkDB image in [this Docker Hub page](https://hub.docker.com/_/rethinkdb/).
 

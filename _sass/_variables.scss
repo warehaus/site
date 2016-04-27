@@ -1,7 +1,7 @@
 $warehaus-font-weight-min:           400;
 $warehaus-font-weight-thin:          400;
 $warehaus-font-weight-normal:        400;
-$warehaus-font-weight-mild:          600;
+$warehaus-font-weight-mild:          700;
 $warehaus-font-weight-strong:        700;
 
 //-------------------------------
@@ -28,9 +28,9 @@ $font-size-h3:            ceil(($font-size-base * 1.75));
 $font-size-h4:            ceil(($font-size-base * 1.5));
 $font-size-h5:            ceil(($font-size-base * 1.25));
 $font-size-h6:            ceil(($font-size-base * 1.1));
-$font-family-sans-serif:  'Open Sans', sans-serif;
+$font-family-sans-serif:  'Lato', sans-serif;
 $font-family-serif:       $font-family-sans-serif;
-$font-family-monospace:   Menlo, Monaco, Consolas, "Courier New", monospace;
+$font-family-monospace:   "Source Code Pro", "Courier New", monospace;
 $headings-font-family:    $font-family-sans-serif;
 $headings-font-weight:    $warehaus-font-weight-mild;
 $btn-font-weight:         $warehaus-font-weight-normal;
@@ -41,13 +41,11 @@ $badge-font-weight:       $warehaus-font-weight-thin;
 // Warehaus variables
 //------------------
 
-$lato-font-path:                           '/static/bower_components/lato-font/fonts';
-
 $warehaus-standalone-box-padding:           2rem .5rem;
 $warehaus-standalone-box-radius:            .75rem;
 $warehaus-standalone-box-img-margin:        1rem;
 
-$warehaus-bg-color:                         #fafafa;
+$warehaus-bg-color:                         #fff;
 $warehaus-landing-page-jumbotron-bg:        #6989c3;
 $warehaus-landing-page-jumbotron-color:     #fafafa;
 
@@ -64,10 +62,10 @@ $warehaus-sidebar-link-active-bg:           lighten($warehaus-sidebar-bg, 20%);
 $docs-page-nav-width:              250px;
 $docs-page-nav-font-size:          floor(0.875 * $font-size-base);
 $docs-page-nav-heading-color:      #aaa;
-$docs-page-nav-active-color:       #eee;
+$docs-page-nav-active-color:       $warehaus-landing-page-jumbotron-bg;
 $docs-page-nav-spacing-horizontal: floor($font-size-base / 2);
-$docs-page-nav-section-items:      floor(0.4 * $font-size-base);
-$docs-page-nav-section-spacing:    floor(1.5 * $font-size-base);
+$docs-page-nav-section-items:      floor(0.25 * $font-size-base);
+$docs-page-nav-section-spacing:    floor(1.2 * $font-size-base);
 
 $warehaus-dropdown-menu-heading-color:      #aaa;
 $warehaus-dropdown-menu-heading-padding:    3px 20px; // Bootstrap value
