@@ -4,7 +4,7 @@ email: hi@warehaus.io
 description: >
   Warehaus configuration management tool
 baseurl: ""
-url: "http://www.warehaus.io"
+url: "https://warehaus.io"
 
 # Build settings
 markdown: kramdown

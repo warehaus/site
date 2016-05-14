@@ -12,9 +12,8 @@ branches:
     - master
 
 install:
-  - gem install jekyll jekyll-redirect-from html-proofer
+  - gem install jekyll jekyll-redirect-from
   - sudo pip install s3cmd
 
 script:
-  - jekyll build && htmlproofer ./_site
-  - s3cmd sync --delete-removed _site/ s3://warehaus.io/ --verbose
+  - jekyll build && s3cmd sync --force --guess-mime-type --delete-removed _site/ s3://warehaus.io/ --verbose
