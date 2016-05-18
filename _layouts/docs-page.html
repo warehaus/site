@@ -17,7 +17,7 @@ layout: base
           </li>
           {% for node in section.pages %}
           <li{% if page.id == node.id %} class="active"{% endif %}>
-            <a href="{{ site.baseurl }}/docs/{% if node.id == 'index' %}{% else %}{{ node.id }}{% endif %}">{{ node.name }}</a>
+            <a href="{{ site.baseurl }}/docs/{% if node.id == 'index' %}{% else %}{{ node.id }}.html{% endif %}">{{ node.name }}</a>
           </li>
           {% endfor %}
           {% endfor %}
